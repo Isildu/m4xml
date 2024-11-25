@@ -1,16 +1,44 @@
-<root xmlns:xsd="https://www.w3.org/2001/XMLSchema" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" id="08019" version="1.0" xsi:noNamespaceSchemaLocation="https://www.aemet.es/xsd/localidades.xsd">
-<origen>
-<productor>Agencia Estatal de Meteorología - AEMET. Gobierno de España</productor>
-<web>https://www.aemet.es</web>
-<enlace>https://www.aemet.es/es/eltiempo/prediccion/municipios/barcelona-id08019</enlace>
-<language>es</language>
-<copyright>© AEMET. Autorizado el uso de la información y su reproducción citando a AEMET como autora de la misma.</copyright>
-<nota_legal>https://www.aemet.es/es/nota_legal</nota_legal>
-</origen>
-<elaborado>2024-11-25T06:27:12</elaborado>
-<nombre>Barcelona</nombre>
-<provincia>Barcelona</provincia>
-<prediccion>
+cat /root/prediccion/dia[@fecha="2024-11-27"]/temperatura/maxima
+ -------
+<maxima>18</maxima>
+/ > cat /root/prediccion/dia[@fecha="2024-11-27"]/temperatura/minima
+ -------
+<minima>11</minima>
+/ > cat /root/prediccion/dia[@fecha="2024-11-25"]/temperatura/dato[@hora="18"]
+ -------
+<dato hora="18">19</dato>
+/ > cat /root/prediccion/dia[@fecha="2024-11-26"]/cota_nieve_prov
+ -------
+<cota_nieve_prov periodo="00-24"/>
+ -------
+<cota_nieve_prov periodo="00-12"/>
+ -------
+<cota_nieve_prov periodo="12-24"/>
+ -------
+<cota_nieve_prov periodo="00-06"/>
+ -------
+<cota_nieve_prov periodo="06-12"/>
+ -------
+<cota_nieve_prov periodo="12-18"/>
+ -------
+<cota_nieve_prov periodo="18-24"/>
+/ >  cat /root/prediccion/dia[@fecha="2024-11-25"]/humedad_relativa/dato[@hora="18"]
+ -------
+<dato hora="18">90</dato>
+/ > cat /root/prediccion/dia/uc_max
+/ > cat /root/prediccion/dia/uv_max
+ -------
+<uv_max>2</uv_max>
+ -------
+<uv_max>2</uv_max>
+ -------
+<uv_max>1</uv_max>
+ -------
+<uv_max>1</uv_max>
+ -------
+<uv_max>1</uv_max>
+/ > cat /root/prediccion/dia[@fecha]
+ -------
 <dia fecha="2024-11-25">
 <prob_precipitacion periodo="00-24">70</prob_precipitacion>
 <prob_precipitacion periodo="00-12">0</prob_precipitacion>
@@ -94,6 +122,7 @@
 </humedad_relativa>
 <uv_max>2</uv_max>
 </dia>
+ -------
 <dia fecha="2024-11-26">
 <prob_precipitacion periodo="00-24">10</prob_precipitacion>
 <prob_precipitacion periodo="00-12">10</prob_precipitacion>
@@ -177,6 +206,7 @@
 </humedad_relativa>
 <uv_max>2</uv_max>
 </dia>
+ -------
 <dia fecha="2024-11-27">
 <prob_precipitacion periodo="00-24">0</prob_precipitacion>
 <prob_precipitacion periodo="00-12">0</prob_precipitacion>
@@ -216,6 +246,7 @@
 </humedad_relativa>
 <uv_max>1</uv_max>
 </dia>
+ -------
 <dia fecha="2024-11-28">
 <prob_precipitacion periodo="00-24">0</prob_precipitacion>
 <prob_precipitacion periodo="00-12">0</prob_precipitacion>
@@ -255,6 +286,7 @@
 </humedad_relativa>
 <uv_max>1</uv_max>
 </dia>
+ -------
 <dia fecha="2024-11-29">
 <prob_precipitacion>10</prob_precipitacion>
 <cota_nieve_prov/>
@@ -278,6 +310,7 @@
 </humedad_relativa>
 <uv_max>1</uv_max>
 </dia>
+ -------
 <dia fecha="2024-11-30">
 <prob_precipitacion>25</prob_precipitacion>
 <cota_nieve_prov>2000</cota_nieve_prov>
@@ -300,6 +333,7 @@
 <minima>65</minima>
 </humedad_relativa>
 </dia>
+ -------
 <dia fecha="2024-12-01">
 <prob_precipitacion>55</prob_precipitacion>
 <cota_nieve_prov>1800</cota_nieve_prov>
@@ -322,5 +356,3 @@
 <minima>70</minima>
 </humedad_relativa>
 </dia>
-</prediccion>
-</root>
