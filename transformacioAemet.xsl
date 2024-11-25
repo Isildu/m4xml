@@ -5,10 +5,10 @@
     <body>
         <table style="border: 1px solid black">
             <tr >
-                <th style="text-align:left">Fecha</th>
-                <th style="text-align:left">Maxima</th>
-                <th style="text-align:left">Minima</th>
-                <th style="text-align:left">Prediccion</th>
+                <th style="text-align:left ">Fecha</th>
+                <th style="text-align:left ">Maxima</th>
+                <th style="text-align:left ">Minima</th>
+                <th style="text-align:left ">Prediccion</th>
             </tr>
             <xsl:for-each select="root/prediccion/dia">
             <tr>
