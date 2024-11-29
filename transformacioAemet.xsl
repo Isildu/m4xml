@@ -2,8 +2,8 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:template match="/">
     <html>
-    <body tyle="border: 5px solid black">
-        <table >
+    <body>
+        <tablestyle="border: 5px solid black">
             <tr>
                 <th style="text-align:left ">Fecha</th>
                 <th style="text-align:left ">Maxima</th>
