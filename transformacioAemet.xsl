@@ -12,9 +12,9 @@
             </tr>
             <xsl:for-each select="root/prediccion/dia">
             <tr>
-                <th><xsl:value-of select="@fecha"></xsl:value-of></th>
-                <th><xsl:value-of select="temperatura/maxima"></xsl:value-of></th>
-                <th><xsl:value-of select="temperatura/minima"></xsl:value-of></th>
+                <td><xsl:value-of select="@fecha"></xsl:value-of></td>
+                <td><xsl:value-of select="temperatura/maxima"></xsl:value-of></td>
+                <td><xsl:value-of select="temperatura/minima"></xsl:value-of></td>
             </tr>
             </xsl:for-each>
         </table>
