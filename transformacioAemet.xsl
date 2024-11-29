@@ -3,8 +3,8 @@
     <xsl:template match="/">
     <html>
     <body>
-        <table style="border: 5px solid black">
-            <tr >
+        <table >
+            <tr style="border: 5px solid black">
                 <th style="text-align:left ">Fecha</th>
                 <th style="text-align:left ">Maxima</th>
                 <th style="text-align:left ">Minima</th>
