@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Estudiantes>
+    <Estudiante>
+        <Nombre>Rafael</Nombre>
+        <Apellidos>Pardo Borrajo</Apellidos>
+        <Telefono>625853465</Telefono>
+        <Repetidor>si</Repetidor>
+        <NotaPractica>7</NotaPractica>
+        <NotaExamen>8</NotaExamen>
+        <NotaTotal></NotaTotal>
+    </Estudiante>
+    <Estudiante>
+        <Nombre>Ramon</Nombre>
+        <Apellidos>Conde Perez</Apellidos>
+        <Telefono>664141424</Telefono>
+        <Repetidor></Repetidor>
+        <NotaPractica>8</NotaPractica>
+        <NotaExamen>9</NotaExamen>
+        <NotaTotal></NotaTotal>
+    </Estudiante>
+    <Estudiante>
+        <Nombre>Manuela</Nombre>
+        <Apellidos>Gonzalez Tejero</Apellidos>
+        <Telefono>667753747</Telefono>
+        <Repetidor></Repetidor>
+        <NotaPractica>9</NotaPractica>
+        <NotaExamen>6</NotaExamen>
+        <NotaTotal></NotaTotal>
+    </Estudiante>
+    <Estudiante>
+        <Nombre>Patricia</Nombre>
+        <Apellidos>Otero Lopez</Apellidos>
+        <Telefono>647398299</Telefono>
+        <Repetidor></Repetidor>
+        <NotaPractica>5</NotaPractica>
+        <NotaExamen>3</NotaExamen>
+        <NotaTotal></NotaTotal>
+    </Estudiante>
+    <Estudiante>
+        <Nombre>Oscar</Nombre>
+        <Apellidos>Garcia Blanco</Apellidos>
+        <Telefono>678934521</Telefono>
+        <Repetidor></Repetidor>
+        <NotaPractica>5</NotaPractica>
+        <NotaExamen>4</NotaExamen>
+        <NotaTotal></NotaTotal>
+    </Estudiante>
+    <Estudiante>
+        <Nombre>Pablo</Nombre>
+        <Apellidos>Esteban Garcia</Apellidos>
+        <Telefono>643278396</Telefono>
+        <Repetidor>si</Repetidor>
+        <NotaPractica>7</NotaPractica>
+        <NotaExamen>3</NotaExamen>
+        <NotaTotal></NotaTotal>
+    </Estudiante>
+</Estudiantes>

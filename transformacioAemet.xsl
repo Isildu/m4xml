@@ -15,6 +15,9 @@
                 <td><xsl:value-of select="@fecha"></xsl:value-of></td>
                 <td><xsl:value-of select="temperatura/maxima"></xsl:value-of></td>
                 <td><xsl:value-of select="temperatura/minima"></xsl:value-of></td>
+                <xsl:choose>
+                    <xsl:when test="estado_cielo[@periodo='00-12']/@descripcion!=''"></xsl:when>
+                </xsl:choose>
             </tr>
             </xsl:for-each>
         </table>
